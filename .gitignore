@@ -1,4 +1,21 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+
+# VSCode specific
+.vscode/
+*.code-workspace
+
+# General
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.tmp
+*.temp
 
 # dependencies
 /node_modules
